@@ -1,0 +1,20 @@
+@main("One room chat") {
+
+    <div class="row">
+        <div class="col-md-6">
+            <form id="chat-form">
+                <div class="form-group">
+                    <label for="message">Message from <span id="user-name"></span></label>
+                    <textarea id="message" class="form-control" placeholder="Please add message"> </textarea>
+                </div>
+                <button type="button" class="btn btn-primary" id="chat-form-submit">Send</button>
+            </form>
+
+        </div>
+        <div class="col-md-6">
+            <ul id="history">
+            </ul>
+        </div>
+    </div>
+
+}
